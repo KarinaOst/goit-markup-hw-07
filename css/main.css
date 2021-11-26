@@ -1,15 +1,15 @@
-.body {
+body {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.img {
+img {
   display: block;
   height: auto;
   max-width: 100%;
 }
 
-.h1,
+h1,
 h2,
 h3,
 h4,
@@ -258,7 +258,9 @@ p {
 
 .modal-button-close:hover .close-cross,
 .modal-button-close:focus .close-cross {
-  fill: #2196F3;
+  fill: #2196f3;
+  background: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-headline {
@@ -308,18 +310,18 @@ p {
 
 .modal-form-input:focus {
   outline: none;
-  border-color: #2196F3;
+  border-color: #2196f3;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus:not(:placeholder-shown):invalid {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 .modal-form-input:focus:not(:placeholder-shown) .modal-form-icons {
-  fill: #2196F3;
+  fill: #2196f3;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -354,7 +356,7 @@ p {
 
 .form-textarea:focus {
   outline: none;
-  border-color: #2196F3;
+  border-color: #2196f3;
 }
 
 .modal-form-check-label {
@@ -369,7 +371,7 @@ p {
 }
 
 .policy-link {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .checkbox-wrap {
@@ -379,13 +381,13 @@ p {
 
 .modal-form-check-label::before {
   display: inline-block;
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   cursor: pointer;
   margin-right: 10px;
   border: 1px solid #303030;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   vertical-align: middle;
@@ -393,7 +395,7 @@ p {
 }
 
 .modal-form-check:checked + .modal-form-check-label::before {
-  background-color: #2196F3;
+  background-color: #2196f3;
   background-image: url(../images/checkk.svg);
   background-origin: border-box;
   background-size: contain;
@@ -406,7 +408,7 @@ p {
 }
 
 .modal-form-input:focus + .modal-form-icons {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .form-button {
@@ -420,7 +422,7 @@ p {
 
 .form-button:hover,
 .form-button:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
   color: #ffffff;
 }
 
