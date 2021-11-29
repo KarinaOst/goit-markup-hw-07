@@ -28,8 +28,8 @@
   }
 .filter-button:hover,
 .filter-button:focus {
-    color: #ffffff;
-    background: #2196F3;
+    color: $backgroundcolor;
+    background: $accentcolor;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     
   }
@@ -91,7 +91,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-sub {
-    background-color: #ffffff;
+    background-color: $backgroundcolor;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;

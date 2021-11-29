@@ -4,7 +4,7 @@
 .modal {
   min-height: 581px;
   min-width: 528px;
-  background-color: #ffffff;
+  background-color: $backgroundcolor;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -29,7 +29,7 @@
 
   &:hover .close-cross,
   &:focus .close-cross {
-    fill: #2196f3;
+    fill: $accentcolor;
     background: #ffffff;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -43,7 +43,7 @@
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: $textcolor;
   margin-bottom: 12px;
 }
 
@@ -62,7 +62,7 @@
   margin-top: 10px;
   letter-spacing: 0.01em;
 
-  color: #757575;
+  color: $adresscolor;
 }
 .modal-form-field-content {
   position: relative;
@@ -80,19 +80,19 @@
 
   &:focus {
     outline: none;
-    border-color: #2196f3;
+    border-color: $accentcolor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &:focus:not(:placeholder-shown):invalid {
-    border: 1px solid #2196f3;
+    border: 1px solid $accentcolor;
     box-sizing: border-box;
     border-radius: 4px;
   }
 }
 
 .modal-form-input:focus:not(:placeholder-shown) .modal-form-icons {
-  fill: #2196f3;
+  fill: $accentcolor;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-icons {
@@ -126,7 +126,7 @@
 }
 .form-textarea:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: $accentcolor;
 }
 .modal-form-check-label {
   font-family: Roboto;
@@ -141,7 +141,7 @@
 }
 
 .policy-link {
-  color: #2196f3;
+  color: $accentcolor;
 }
 .checkbox-wrap {
   margin-top: 20px;
@@ -156,7 +156,7 @@
   cursor: pointer;
   margin-right: 10px;
   border: 1px solid #303030;
-  background: #ffffff;
+  background: $backgroundcolor;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -165,7 +165,7 @@
 }
 
 .modal-form-check:checked + .modal-form-check-label::before {
-  background-color: #2196f3;
+  background-color: $accentcolor;
   background-image: url(../images/checkk.svg);
   background-origin: border-box;
   background-size: contain;
@@ -177,7 +177,7 @@
   outline: 2px solid rgba(0, 0, 255, 0.5);
 }
 .modal-form-input:focus + .modal-form-icons {
-  fill: #2196f3;
+  fill: $accentcolor;
 }
 .form-button {
   margin-top: 30px;
@@ -191,5 +191,5 @@
 .form-button:hover,
 .form-button:focus {
   background-color: #188ce8;
-  color: #ffffff;
+  color: $backgroundcolor;
 }

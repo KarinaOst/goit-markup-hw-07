@@ -21,7 +21,7 @@
     }
   .contact-link:hover,
   .contact-link:focus {
-    color: #2196F3;
+    color: $accentcolor;
     }
   .city {
       font-family: Roboto;
@@ -33,7 +33,7 @@
       text-decoration: none;
       display: inline-flex;
   
-      color: #ffffff;
+      color: $backgroundcolor;
     }
   
 
@@ -49,7 +49,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: $backgroundcolor;
     margin-bottom: 20px;
     }
   
@@ -72,11 +72,11 @@
     }
   .footer-social-link:hover,
   .footer-social-link:focus {
-      background-color: #2196F3;
+      background-color: $accentcolor;
     }
   .footer-social-link:hover .footer-social-icon,
   .footer-social-link:focus .footer-social-icon {
-      fill: #ffffff;
+      fill: $backgroundcolor;
     }
   .footer-social-icon {
       fill: #ffffff;
